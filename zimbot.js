@@ -632,7 +632,7 @@ ZimBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4' , ptt: true
 }
 }   
 
-//BY DRIPS ZIM BOT INC   
+//BY SHEWON MD BOT
 	// auto set bio
 	if (db.data.settings[botNumber].autobio) {
 	    let setting = global.db.data.settings[botNumber]
@@ -4938,7 +4938,7 @@ url: 'https://youtube.com/c/slcartooninstudio'
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/CyberKing4/SHEWON-MD-BOT'
 }
 }, {
 quickReplyButton: {
@@ -5041,7 +5041,7 @@ url: `${text}`
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/CyberKing4/SHEWON-MD-BOT'
 }
 }, {
 quickReplyButton: {
@@ -5851,7 +5851,7 @@ break
 	    }
 	    break
 
-//BY ZIIM BOT INC
+//BY SHEWON MD BOT
 
         case 'resepmasakan2': {
                 //if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)
@@ -5936,7 +5936,7 @@ case 'apk': case 'apkmod': case 'apkdl': {
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `© ZIM BOT INC`,
+       footer: `© SHEWON MD BOT`,
        title: "*▊▊▊APK DOWNLOAD▊▊▊*",
        buttonText: "CLICK HERE",
        sections
@@ -6833,7 +6833,7 @@ ZimBotInc.sendMessage(m.chat, { image : { url : res.data.images.jpg.image_url}, 
 }
 break
 
-//by zim bot inc
+//by SHEWON MD BOT
 
 case 'listmenu': case 'list': {
     
@@ -7487,7 +7487,7 @@ let btn = [{
                             }, {
           urlButton: {
                   displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/CyberKing4/SHEWON-MD-BOT'
           }
                             }, {
           quickReplyButton: {
@@ -7522,7 +7522,7 @@ url: 'https://youtube.com/c/slcartooninstudio'
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/CyberKing4/SHEWON-MD-BOT'
 }
 }, {
 quickReplyButton: {
@@ -7560,7 +7560,7 @@ url: 'https://youtube.com/c/slcartooninstudio'
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/CyberKing4/SHEWON-MD-BOT'
 }
 }, {
 quickReplyButton: {
@@ -7598,7 +7598,7 @@ url: 'https://youtube.com/c/slcartooninstudio'
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/CyberKing4/SHEWON-MD-BOT'
 }
 }, {
 quickReplyButton: {
@@ -7672,7 +7672,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
        sections
       }, { quoted : m })
       } else if (setbot.templateDoc) {
-      const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://youtube.com/c/slcartooninstudio` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v3` } },
+      const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://youtube.com/c/slcartooninstudio` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/CyberKing4/SHEWON-MD-BOT` } },
    {					
 					quickReplyButton: {
 						displayText: 'SPEED',
