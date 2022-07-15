@@ -3642,7 +3642,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
           displayText: `GITHUB`, 
-                  url: `https://github.com/zim-bot/zimbot-v3`
+                  url: `https://github.com/CyberKing4/SHEWON-MD-BOT`
           }
                             }, {
           quickReplyButton: {
@@ -4496,7 +4496,7 @@ case '3d-wood': case 'angels-wings': case 'snake-text': case 'redhot-metal2': ca
                 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `${command}` }, { quoted: m}).catch((err) => m.reply('*Sorry Xteam server is down*'))
 	            }
                 break
-//ZIM BOT INC
+//SHEWON MD BOT
 
 	    case 'nomerhoki': case 'nomorhoki': {
 	    ////if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)
