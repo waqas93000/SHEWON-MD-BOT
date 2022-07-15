@@ -9,7 +9,7 @@
 //▮REPORT ABUSE OF THIS SOFTWARE
 //▮http://shewon.ml/
 //▮WHATSAPP US : +94 78 499 7828
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
+//▮YOUTUBE CHANNELL: https://youtube.com/c/slcartooninstudio
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -17,7 +17,7 @@
 //┃THIS SOFTWARE INCLUDES 
 //┃SOME ENCRYPTED FILES
 //┃
-//┃THANKS FOR CHOOSING SHEWONBOT
+//┃THANKS FOR CHOOSING SHEWON-BOT
 //┃THANKS TO DIKA ARDNT
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
@@ -41,10 +41,10 @@ global.owner = ['94784997828','']
 global.premium = ['94784997828','94784997828']
 global.botname = 'SHEWON MD BOT'
 global.ownername = 'Shewon'
-global.group1 = 'https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A'
-global.group2 = 'https://chat.whatsapp.com/HSfcYU13g5C8GxINWwSWoA'
+global.group1 = 'https://chat.whatsapp.com/Fm4u0QPs077451u4WIk6Lt'
+global.group2 = 'https://chat.whatsapp.com/KIcwDEHyuoL4SjxQgVW5gZ'
 global.packname = 'SHEWON MD BOT'
-global.ytchannel = 'https://youtu.be/ww4z2m3uORU'
+global.ytchannel = 'https://youtube.com/c/slcartooninstudio'
 global.monayawal = '100000'
 global.darahawal = '100'
 global.besiAwal = '15'
