@@ -5370,7 +5370,7 @@ const result4 = `*▊▊▊MEDIAFIRE DL▊▊▊*
 *Link* : ${baby1[0].link}\n
 _whoa wait zimbot processing..._
 
-*ZIM BOT INC*`
+*SHEWON MD BOT*`
 m.reply(`${result4}`)
 ZimBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted : m }).catch ((err) => m.reply('*Failed to download File*'))
 }
