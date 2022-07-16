@@ -638,7 +638,7 @@ ZimBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4' , ptt: true
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await ZimBotInc.setStatus(`SHEWON-MD-BOT| BOT ONLINE: ${runtime(uptime)}`)
+		await ZimBotInc.setStatus(`SHEWON-MD|BOT ONLINE: ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -3745,7 +3745,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 let media = await yta(text, quality)
                 if (media.filesize >= 100000) return m.reply('*File Over Limit* '+util.format(media))
                 let caption = `
-*▊▊▊BEST MUSIC▊▊▊*
+*▊▊▊SONG DOWNLOADER▊▊▊*
 
 *⬤▶━━━━━━━━━2:30*\n\n*⬤TITLE :* ${media.title}\n*⬤FILESIZE :* ${media.filesizeF}\n*⬤URL :* ${isUrl(text)}\n*⬤EXT :* MP3\n*⬤RESOLUTION :* ${args[1] || '128kbps'}\n\n*SHEWON MD BOT*`
                 buf = await getBuffer(media.thumb)
@@ -3773,7 +3773,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 let media = await ytv(text, quality)
                 if (media.filesize >= 100000) return m.reply('*File Over Limit* '+util.format(media))
                 var capti = `
-*▊▊▊BEST VIDEO▊▊▊*
+*▊▊▊VIDEO DOWNLODER▊▊▊*
 
 *⬤▶━━━━━━━━━2:30*\n\n*⬤Title* : ${media.title}\n*⬤FILESIZE* : ${media.filesizeF}\n*⬤URL* : ${isUrl(text)}\n*⬤EXT* : MP3\n*⬤RESOLUTION* : ${args[1] || '360p'}\n\n*SHEWON MD BOT*`
                 var buf = await getBuffer(media.thumb)
@@ -4231,7 +4231,7 @@ if (isBan) throw mess.ban
             m.reply(`*1 limit used*`)
             anu = await fetchJson(`https://cililitan.herokuapp.com/api/kodepos?kota=${text}`)       
             for (let g of anu.result.data) {            
-            let helo = `*----「 KODEPOS 」----*\n\n*province* : ${g.province}\n*City* : ${g.city}\n*subdistrict* : ${g.subdistrict}\n*Urban* : ${g.urban}\n*postalcode* : ${g.postalcode}\n\n*ZIM BOT INC*`
+            let helo = `*----「 KODEPOS 」----*\n\n*province* : ${g.province}\n*City* : ${g.city}\n*subdistrict* : ${g.subdistrict}\n*Urban* : ${g.urban}\n*postalcode* : ${g.postalcode}\n\n*SHEWON MD BOT*`
             m.reply(`${helo}`)
             }
             }
@@ -5126,7 +5126,7 @@ case 'ig': case 'igdl': case 'instagram': {
 	            var halo = 0		
 
 
-	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*ZIM BOT INC*` }, { quoted: m })	             	                      	            
+	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*SHEWON MD BOT*` }, { quoted: m })	             	                      	            
 
 
 		        for(let i of result.medias) {		
@@ -5699,7 +5699,7 @@ case 'fb6': {
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)            
                 xa.Facebook(`${text}`).then(async (data) => {                   
-                    let txt = `*▊▊▊FB6 DOWNLOAD▊▊▊*\n\n`
+                    let txt = `*▊▊▊FB6 DOWNLOADER▊▊▊*\n\n`
                     txt += `*⬤TITLE :* ${data.title}\n`
                     txt += `*⬤QUALITY :* ${data.medias[1].quality}\n`
                     txt += `*:⬤TYPE* ${data.medias[1].extension}\n`
