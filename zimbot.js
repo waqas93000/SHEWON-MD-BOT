@@ -3758,7 +3758,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │
 │ *I am Uploading your song*➾🎲
 │
-│🕊️ᴘᴏᴡᴇʀᴇᴅ ʙʏ sʜᴇᴡᴏɴ ʙᴏᴛ ₂₀₂₂
+│🕊️ᴘᴏᴡᴇʀᴇᴅ ʙʏ sʜᴇᴡᴏɴ ₂₀₂₂
 ╰╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶◉`,
                     footer: 'SHEWON MD BOT',
                     buttons: buttons,
