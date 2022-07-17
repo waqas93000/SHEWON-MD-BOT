@@ -1485,7 +1485,7 @@ case 'restart': {
 break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 	    if (isBan) throw mess.ban
-                ZimBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/4e12bdfc0fbcbe7d14930.jpg' }, caption: `*Hi Chomie ${m.pushName}*\n\n *Thanks for your support we appreciate you we dont need your money, support us by subscribing to our youtube channel* *DRIPS OFC:* https://www.youtube.com/c/DRIPSOFC ` }, { quoted: m })
+                ZimBotInc.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/LJQ41wW/20220715-232355.jpg' }, caption: `*Hi Chomie ${m.pushName}*\n\n *Thanks for your support we appreciate you we dont need your money, support us by subscribing to our youtube channel* *SHEWON OFC:* https://youtube.com/c/slcartooninstudio ` }, { quoted: m })
             }
             break            
             case 'chat': {
@@ -5497,7 +5497,7 @@ const result4 = `*▊▊▊MEDIAFIRE DL▊▊▊*
 *Size* : ${baby1[0].size}
 *Mime* : ${baby1[0].mime}
 *Link* : ${baby1[0].link}\n
-_whoa wait zimbot processing..._
+_wait processing..._
 
 *SHEWON MD BOT*`
 m.reply(`${result4}`)
