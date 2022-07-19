@@ -1399,6 +1399,63 @@ case 'limituser':
     ZimBotInc.sendTextWithMentions(m.chat, txt, m)      
   }
  break
+      case 'bot': {
+kingbotcmd = `[🕊️𝚂𝙷𝙴𝚆𝙾𝙽-𝙼𝙳-𝙱𝙾𝚃🕊️] 
+╹❝𝗦𝗥𝗜 𝗟𝗔𝗡𝗞𝗔 𝗕𝗘𝗦𝗧 𝗪𝗔 𝗕𝗢𝗧❞╹
+
+╭────────────────◉
+│🎲 𝙾𝚆𝙽𝙴𝚁    ➢ 𝙎𝙃𝙀𝙒𝙊𝙉
+│🎲 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ➢ NODE.js
+│🎲 𝙲𝙾 𝙾𝚆𝙽𝙴𝚁 ➢ 𝙼𝚁.ʀᴀᴠᴇᴇsʜᴀ
+╰────────────────◉
+
+
+╭╶╶╶╶╶╶╶╶╶╶╶╶╶╶💫
+│       🍒 ✨️𝗔𝗗𝗠𝗜𝗡™✨️ 🍒
+│🍁─────────────🍁
+│      
+│
+│🔰✨️ ᴍʀ ʙɪɴᴜᴋᴀ ✨️ ᭄
+│      ◉ ᴛᴇxᴛ ᴇᴅɪᴛᴏʀ
+│      
+│🔰✨️  ᴄʜᴀᴍɪᴋᴀ ✨️ ᭄
+│      ◉ ᴇʜɪ ᴄʀᴇᴀᴛᴏʀ
+│      
+│🔰✨️ ɴɪsᴀʟ    ✨️ ᭄
+│🔰✨️ ᴄʜᴀᴍɪᴋᴀ  ✨️ ᭄
+│🔰✨️ ᴋᴀᴡɪsʜᴋᴀ ✨️ ᭄
+│🔰✨️ ʙɪɴᴜᴋᴀ   ✨️ ᭄
+│     ◉ ʙᴏᴛ ᴛᴇꜱᴛᴇʀ
+│      
+│🔰✨️ ᴋᴀᴡɪsʜᴋᴀ ✨️ ᭄
+│      ◉ ᴛᴇxᴛ ᴇᴅɪᴛᴏʀ
+│      ◉ ɢʀᴀᴘɪᴄ ᴅᴇꜱɪɢɴᴇʀ
+│      
+│🔰✨️ ᴋɪɴɢ ᴀʟᴘʜᴀ ✨️ ᭄ 
+│      ◉ ʙᴜɢ ᴀɴᴅ ᴇʀʀᴏʀ ꜰɪxᴇʀ
+│      ◉ ᴀᴅᴍɪɴ ᴍᴀɴᴀɢᴇʀ
+╰╶╶╶╶╶╶╶╶╶╶╶╶╶╶💫
+
+   ┋ *⚜️ ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ ⚜️*┋
+                     
+  🍁𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝗰𝗵𝗼𝗼𝘀𝗶𝗻𝗴🍁
+       🔥❝𝙎𝙃𝙀𝙒𝙊𝙉 𝙈𝘿 𝘽𝙊𝙏❞🔥`
+
+let buttons = [
+               {buttonId: `command`, buttonText: {displayText: 'LIST'}, type: 1},
+               {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1},
+               {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: fs.readFileSync('./Zimbot/bot.jpg'),
+                    caption: kingbotcmd,
+                    footer: 'SHEWON MD BOT',
+                    buttons: buttons,
+                    headerType: 4
+                }
+                ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+break
 case 'leaderboard':
 {      
    let txt = `「 *LEADERBOARD* 」\n\n`
