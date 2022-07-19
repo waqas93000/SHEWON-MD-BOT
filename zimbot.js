@@ -1442,7 +1442,7 @@ kingbotcmd = `[🕊️𝚂𝙷𝙴𝚆𝙾𝙽-𝙼𝙳-𝙱𝙾𝚃🕊️]
        🔥❝𝙎𝙃𝙀𝙒𝙊𝙉 𝙈𝘿 𝘽𝙊𝙏❞🔥`
 
 let buttons = [
-               {buttonId: `command`, buttonText: {displayText: 'MENU'}, type: 1},
+               {buttonId: `command`, buttonText: {displayText: 'LIST'}, type: 1},
                {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1},
                {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
                 ]
