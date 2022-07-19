@@ -71,7 +71,7 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 limitawal = '100'
 botname = 'SHEWON MD BOT'
 wm = 'SHEWON MD BOT'
-global.reactmoji = '🎲'
+global.reactmoji = '📂'
 limitCount = setting.limit
 
 //read database
@@ -132,7 +132,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const isWelcome = m.isGroup ? dripswelcome.includes(m.chat) : false
 //zim bot inc
 
-const timuu = moment.tz('Africa/Harare').format('HH:mm:ss')
+const timuu = moment.tz('SriLanka').format('HH:mm:ss')
 const hariRaya = new Date('Apr 02, 2022 01:45:00')
 const sekarang = new Date().getTime();
 const Selisih = hariRaya - sekarang;
@@ -237,7 +237,7 @@ switch(hari) {
     if (isCmd) msgFilter.addFilter(from)
     
 // TIME 
-const time2 = moment().tz('Africa/Harare').format('HH:mm:ss')
+const time2 = moment().tz('SriLanka').format('HH:mm:ss')
 if(time2 < "23:59:00"){
 var ucapannya2 = `Good Night 🌒`
 }
@@ -2931,13 +2931,7 @@ break
         }
         break
             case 'emojimix': {
-            if (isBan) throw mess.ban
-           // //if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)
-	        if (!text) throw `Example : ${prefix + command} 😅+🤔`
-	        if (!isInventoryLimit){ addInventoriLimit(m.sender) }
-            if (isLimit < 1) return m.reply(mess.endLimit)
-            kurangLimit(m.sender, 1)
-            m.reply(`*Creating...*`)
+	        if (!text) return replay(`Example : ${prefix + command} 😅+🤔`)
 		let [emoji1, emoji2] = text.split`+`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 		for (let res of anu.results) {
@@ -3585,21 +3579,17 @@ if (isBan) throw mess.ban
                     reply(res)
                 }
                 break        
-        case 'gimage': {
-        if (isBan) throw mess.ban
-        //if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)
-        if (!text) throw `Example : ${prefix + command} John Cena`
+         case 'gimage': case 'img': case 'googleimage': {
+        if (!text) return reply(`Example : ${prefix + command} SHEWON BOT MD`)
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
         n = result
         images = n[Math.floor(Math.random() * n.length)].url
-        let log = await getBuffer(images)
         let buttons = [
-                    {buttonId: `gimage ${text}`, buttonText: {displayText: 'NEXT PIC'}, type: 1}
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: images },
-                    jpegThumbnail: log,
                     caption: `*▊▊▊ GOOGLE IMAGE ▊▊▊*
 🤠 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
