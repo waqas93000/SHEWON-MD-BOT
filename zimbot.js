@@ -132,7 +132,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const isWelcome = m.isGroup ? dripswelcome.includes(m.chat) : false
 //zim bot inc
 
-const timuu = moment.tz('GMT+5:30').format('HH:mm:ss')
+const timuu = moment.tz('LK,LKA').format('HH:mm:ss')
 const hariRaya = new Date('Apr 02, 2022 01:45:00')
 const sekarang = new Date().getTime();
 const Selisih = hariRaya - sekarang;
@@ -237,7 +237,7 @@ switch(hari) {
     if (isCmd) msgFilter.addFilter(from)
     
 // TIME 
-const time2 = moment().tz('GMT+5:30').format('HH:mm:ss')
+const time2 = moment().tz('LK,LKA').format('HH:mm:ss')
 if(time2 < "23:59:00"){
 var ucapannya2 = `Good Night 🌒`
 }
@@ -1399,7 +1399,7 @@ case 'limituser':
     ZimBotInc.sendTextWithMentions(m.chat, txt, m)      
   }
  break
-      case 'bot': {
+      case 'team': {
 kingbotcmd = `[🕊️𝚂𝙷𝙴𝚆𝙾𝙽-𝙼𝙳-𝙱𝙾𝚃🕊️] 
 ╹❝𝗦𝗥𝗜 𝗟𝗔𝗡𝗞𝗔 𝗕𝗘𝗦𝗧 𝗪𝗔 𝗕𝗢𝗧❞╹
 
@@ -3741,7 +3741,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │▣ ᴜᴘʟᴏᴀᴅᴇᴅ ᴏɴ ➢ ${kingbotsearch.ago}
 │▣ ᴜʀʟ ➢ ${kingbotsearch.url}
 │
-│🕊️ᴘᴏᴡᴇʀᴇᴅ ʙʏ sʜᴇᴡᴏɴ ₂₀₂₂
+│🕊️sʜᴇᴡᴏɴ ᴍᴅ ʙᴏᴛ ₂₀₂₂
 ╰╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶◉`,
                     footer: 'SHEWON MD BOT',
                     buttons: buttons,
@@ -3805,7 +3805,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │
 │ *I am Uploading your song*➾🎲
 │
-│🕊️ᴘᴏᴡᴇʀᴇᴅ ʙʏ sʜᴇᴡᴏɴ ₂₀₂₂
+│🕊️sʜᴇᴡᴏɴ ᴍᴅ ʙᴏᴛ ₂₀₂₂
 ╰╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶◉`,
                     footer: 'SHEWON MD BOT',
                     buttons: buttons,
@@ -3862,7 +3862,7 @@ if (isBan) throw mess.ban
 			try {
 				xa.Youtube(mulaikah).then(async (data) => {				
 				const captions = `
-▊▊▊BEST MUSIC▊▊▊
+▊▊▊SONG DOWNLOADER▊▊▊
 
 *⬤▶━━━━━━━━━2:30*						
 *⬤TITLE :* ${aramas.videos[0].title}
@@ -3944,7 +3944,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)
+            m.reply(`*Downloading...*`)
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 100000) return m.reply('*File Over Limit* '+util.format(media))
@@ -3964,7 +3964,7 @@ case 'ytshorts': case 'shorts': {
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)       
+            m.reply(`*Downloading...*`)       
   xa.Youtube(`${text}`).then(async (data) => {
   if (data.medias[0].formattedSize.split('MB')[0] >= 100) return m.reply('*File Over Limit* '+util.format(data)) 
   cap = `
@@ -5145,7 +5145,7 @@ if (isBan) throw mess.ban
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)
+            m.reply(`*Downloading...*`)
                 let bocil = require('@bochilteam/scraper')    
                 if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) throw '*The link you provided is not valid*'                
                 bocil.tiktokdlv3(`${text}`).then(async (video) => {           
@@ -5169,7 +5169,7 @@ case 'tiktokk': case 'ttk': {
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)
+            m.reply(`*Downloading...*`)
                 let bocil = require('@bochilteam/scraper')    
                 if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) throw '*The link you provided is not valid*'                
                 bocil.tiktokdlv3(`${text}`).then(async (video) => {           
@@ -5192,7 +5192,7 @@ case 'tt3': case 'tiktok3': {
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)
+            m.reply(`*Downloading...*`)
                 let bocil = require('@bochilteam/scraper')    
                 if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) throw '*The link you provided is not valid*'                
                 bocil.tiktokdlv3(`${text}`).then(async (video) => {           
@@ -5290,7 +5290,7 @@ case 'ig': case 'igdl': case 'instagram': {
 
             kurangLimit(m.sender, 1)
 
-            m.reply(`*1 limit used*`)                
+            m.reply(`*Downloading...*`)                
 
                 let urlnya = text
 
@@ -5341,7 +5341,7 @@ case 'ig': case 'igdl': case 'instagram': {
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)
+            m.reply(`*Downloading...*`)
                 let bicil = require('@bochilteam/scraper')
                 let urlnya = text
 	            bicil.instagramdlv4(urlnya)
@@ -5364,7 +5364,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)
+            m.reply(`*Downloading...*`)
             anu = await fetchJson(`https://api.akuari.my.id/downloader/igdl?link=${text}`)
             var oi = 1
             for(let i of anu.medias){                
@@ -5382,7 +5382,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
                 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 1)
-            m.reply(`*1 limit used*`)
+            m.reply(`*Downloading...*`)
                 instagramdlv3(`${text}`).then(async (data) => {
                 for (let f of data) {                    
                 ZimBotInc.sendMedia(m.chat, f.url, '', `Download Url Instagram From ${text}`, m)
