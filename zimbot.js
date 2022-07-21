@@ -455,7 +455,7 @@ randek = jsonDrips[randIndex];
     
         // Push Message To Console && Auto Read
         if (m.message) {
-            console.log(chalk.blue(chalk.bgWhite('SHEWOBOT')), chalk.whiteBright(chalk.bgRed(new Date)), chalk.black(chalk.bgRed(budy || m.mtype)) + '\n' + chalk.magenta('⦿ FROM'), chalk.bgYellowBright(pushname), chalk.bgGray(m.sender) + '\n' + chalk.bgCyanBright('RECIEVED'), chalk.yellowBright(m.isGroup ? pushname : 'DM', m.chat))
+            console.log(chalk.blue(chalk.bgWhite('SHEWON BOT')), chalk.whiteBright(chalk.bgRed(new Date)), chalk.black(chalk.bgRed(budy || m.mtype)) + '\n' + chalk.magenta('⦿ FROM'), chalk.bgYellowBright(pushname), chalk.bgGray(m.sender) + '\n' + chalk.bgCyanBright('RECIEVED'), chalk.yellowBright(m.isGroup ? pushname : 'DM', m.chat))
         }
 	
               if (global.dripsreadgroup) {
@@ -485,7 +485,7 @@ randek = jsonDrips[randIndex];
     }, 
     {
       scheduled: true,
-      timezone: 'Africa/Harare'
+      timezone: 'Asia/Colombo'
      }
     )
 //thum
