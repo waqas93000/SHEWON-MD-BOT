@@ -32,7 +32,7 @@
 <a href="https://github.com/CyberKing4/SHEWON-MD-BOT/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/CyberKing4/SHEWON-MD-BOT.svg">
 <a href="https://github.com/CyberKing2/SHEWON-MD-BOT/edit/main/README.md"><img src="https://badge-size.herokuapp.com/CyberKing4/SHEWON-MD-BOT/main/README.md">	
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-CCOv1-blue.svg)](https://www.gnu.org/licenses/cco-1.0)
   
 <img src="https://github-readme-stats.vercel.app/api?username=CyberKing4&theme=blue-green"> 
 
