@@ -41,15 +41,21 @@
 
 > 𝙃𝙊𝙒 𝙏𝙊 𝙄𝙉𝙎𝙏𝘼𝙇𝙇 𝘽𝙊𝙏?
 
-> මුලින්ම qr code එක scan කරගන්න🥲.
+> If you do not have a Github account, create a new [Github](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) account
 
-> ඊට පස්සෙ මේ git එක fork කරගන්න.😌. 
+> Scan The Qr Code.
 
-> දැන් වට්සැප් එකේ ඔයාගෙ ලොක් අංගයට session.json කියලා file එකක් ඇවිල්ලා ඇති. ඒක තියෙන්නෙ Whatsapp > media > whatsapp documents > session.json  මෙතන.
+> Now Click The [Fork](https://github.com/CyberKing4/SHEWON-MD-BOT/fork)
 
-> දැන් ඔයා අර fork කරපු git එකට ආයි ගිහින් ඒ session.json එක upload කරලා commit changes දෙන්න😁.
+> Now Upload your session.json file
 
-> යටට ගිහින් "DEPLOY TO HEROKU" 👈මෙතනින් deploy කරන්න විතරයි තියෙන්නෙ😁
+> Now Copy This Url https://heroku.com/deploy?template=https://github.com/CyberKing4/SHEWON-MD-BOT.git and change CyberKing4/SHEWON-MD-BOT with your user name and repo name
+
+> Now Deploy SHEWON MD With Your Url.
+
+> more ... ↓↓↓
+
+<div align="left"><a href=""><img src="https://github.com/ravindu01manoj/ravindu01manoj/blob/main/sewqueenimg/yt.jpg" width="150" ></a></div>
 
 <div align="center">
 
@@ -66,9 +72,4 @@
 
 
 ----
-☘ SHEWON MD BOT ☘
-
-`
-Shewon Multi Device Bot Is a Powerful Project For WhatsApp,You Can Install Your Bot Easily In Here,Thank You For Using Shewon MD Bot
-`  
-<br>
+<div align="center"><h1> SHEWON MD IS A POWERFULL BOT FOR WHATSAPP </h1><a href="https://github.com/CyberKing4"><img src="https://a.uguu.se/WNrGAGFu.mp4" width="450"></a></div>
