@@ -1399,7 +1399,7 @@ case 'limituser':
     ZimBotInc.sendTextWithMentions(m.chat, txt, m)      
   }
  break
-      case 'team': {
+      case 'shewon': {
 kingbotcmd = `[🕊️𝚂𝙷𝙴𝚆𝙾𝙽-𝙼𝙳-𝙱𝙾𝚃🕊️] 
 ╹❝𝗦𝗥𝗜 𝗟𝗔𝗡𝗞𝗔 𝗕𝗘𝗦𝗧 𝗪𝗔 𝗕𝗢𝗧❞╹
 
