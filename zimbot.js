@@ -3153,18 +3153,15 @@ if (isBan) throw mess.ban
             }
             break
 	        case 'tourl': {
-	        if (isBan) throw mess.ban
-	        //if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)
-	        if (!/image/.test(mime) && !/video/.test(mime)) throw `*Send/Reply Image/video With Caption* ${prefix + command}`                
-	    	let { UploadFileUgu, webp2mp4File, floNime, TelegraPh } = require('./lib/uploader')
-	     	m.reply(mess.wait)
+                reply(mess.wait)
+		        let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
                 let media = await ZimBotInc.downloadAndSaveMediaMessage(quoted)
                 if (/image/.test(mime)) {
                     let anu = await TelegraPh(media)
-                    m.reply(util.format(anu))
+                    reply(util.format(anu))
                 } else if (!/image/.test(mime)) {
                     let anu = await UploadFileUgu(media)
-                    m.reply(util.format(anu))
+                    reply(util.format(anu))
                 }
                 await fs.unlinkSync(media)
             }
