@@ -62,10 +62,10 @@
 <h1><b><i>INSTALL SHEWON MD BOT</i></b></h1>
   
 ### SCAN QR CODE
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)]()
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Shewon/SHEWON-MD-BOT?v=1?outputonly=1&lite=1)
 
 ### <b>DEPLOY TO HEROKU</b>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]()
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com)
 </div>
 
 <div align="center">
