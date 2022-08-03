@@ -6753,7 +6753,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'owner': case 'creator': {
-                ZimBotInc.sendContact(m.chat, global.owner, m)
+                ZimBotInc.sendContact(m.chat, global.botdev, m)
                 const devsound = fs.readFileSync('./Zimbot/bot.mp3')
            ZimBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             
