@@ -9,7 +9,7 @@
 //▮REPORT ABUSE OF THIS SOFTWARE
 //▮http://shewon.ml/
 //▮WHATSAPP US : +94 78 499 7828
-//▮YOUTUBE CHANNELL: https://youtube.com/c/slcartooninstudio
+//▮YOUTUBE CHANNELL: https://www.youtube.com/channel/UCQ66_DJCtA_-azql_pxrQVA
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -37,14 +37,14 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['94784997828','']
-global.premium = ['94784997828','94784997828']
-global.botname = 'SHEWON MD BOT'
-global.ownername = 'Shewon'
-global.group1 = 'https://chat.whatsapp.com/Fm4u0QPs077451u4WIk6Lt'
-global.group2 = 'https://chat.whatsapp.com/KIcwDEHyuoL4SjxQgVW5gZ'
-global.packname = 'SHEWON MD BOT'
-global.ytchannel = 'https://youtube.com/c/slcartooninstudio'
+global.owner = ['923077889300','']
+global.premium = ['923208810070','923077889300']
+global.botname = 'KASHII LOVER'
+global.ownername = 'KASHII 9300'
+global.group1 = ''
+global.group2 = ''
+global.packname = 'KASHII MISHII'
+global.ytchannel = 'https://www.youtube.com/channel/UCQ66_DJCtA_-azql_pxrQVA'
 global.monayawal = '100000'
 global.darahawal = '100'
 global.besiAwal = '15'
